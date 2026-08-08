@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
+  base: '/political-private-network/',
   plugins: [react()],
   resolve: {
     alias: {
