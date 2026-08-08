@@ -1,1 +1,1 @@
-export { default } from './real-dashboard';
+export { default } from './real-dashboard-v2';
