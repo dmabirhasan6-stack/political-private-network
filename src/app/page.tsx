@@ -1,1 +1,1 @@
-export { default } from './fixed-dashboard';
+export { default } from './real-dashboard';
