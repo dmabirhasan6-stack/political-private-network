@@ -12,6 +12,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      'next/link': path.resolve(__dirname, './src/lib/next-link.tsx'),
+      'next/navigation': path.resolve(__dirname, './src/lib/next-navigation.ts'),
     },
   },
   server: {
