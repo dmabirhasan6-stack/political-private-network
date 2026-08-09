@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "start": "vite preview",
-    "preview": "vite preview",
-    "lint": "next lint"
+    "preview": "vite preview"
   },
   "dependencies": {
     "next": "^15.0.0",
