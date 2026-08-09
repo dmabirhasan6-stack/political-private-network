@@ -41,12 +41,12 @@ export const DUMMY_CONVERSATIONS: Conversation[] = [
     isVerified: true,
     isPinned: true,
     unreadCount: 2,
-    lastMessage: 'Please review the draft for tomorrow's central committee meeting.',
+    lastMessage: "Please review the draft for tomorrow's central committee meeting.",
     lastTime: '10:45 AM',
     messages: [
       { id: 'm1', senderId: 'PPN-2026-1000', senderName: 'Abdur Rahman', senderAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80', time: '10:30 AM', type: 'text', content: 'Assalamu Alaikum. Did you receive the latest ward report from Keraniganj?', isSeen: true },
       { id: 'm2', senderId: 'me', senderName: 'You', senderAvatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80', time: '10:32 AM', type: 'text', content: 'Walaikum Assalam. Yes, sir. I have verified all 5 ward entries.', isSeen: true },
-      { id: 'm3', senderId: 'PPN-2026-1000', senderName: 'Abdur Rahman', senderAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80', time: '10:45 AM', type: 'text', content: 'Please review the draft for tomorrow's central committee meeting.', isSeen: false }
+      { id: 'm3', senderId: 'PPN-2026-1000', senderName: 'Abdur Rahman', senderAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80', time: '10:45 AM', type: 'text', content: "Please review the draft for tomorrow's central committee meeting.", isSeen: false }
     ]
   },
   {
