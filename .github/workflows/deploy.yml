@@ -29,11 +29,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build Vite app
+      - name: Build Next.js static export
         run: npm run build
 
-      - name: Verify build output
-        run: test -f dist/index.html
+      - name: Verify static export
+        run: test -f out/index.html && test -d out/dashboard
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -41,7 +41,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./out
 
   deploy:
     environment:
